@@ -9,9 +9,14 @@
 }
 
 h1 {
-    letter-spacing: 3px;
-    padding-top: 50px;
-    color: rgb(55, 55, 55);
+  text-align: left; 
+  font-weight:bold; 
+  font-size: 30px; 
+  color: #dcdcdc; 
+  text-shadow: -1px 0 #414D68, 0 1px #414D68, 1px 0 #414D68, 0 -1px #414D68, -2px 2px 0 #414D68, 2px 2px 0 #414D68, 1px 1px #414D68, 2px 2px #414D68, 3px 3px #414D68, 4px 4px #414D68, 5px 5px #414D68;
+  letter-spacing: 3px;
+  padding-top: 50px;
+  text-align: center;
 }
 
 img {
@@ -19,33 +24,46 @@ img {
     width: 400px;
     display: block;
     margin: 0 auto; /* Centra la imagen horizontalmente */
+    box-shadow: -1px 0 #414D68, 0 1px #414D68, 1px 0 #414D68, 0 -1px #414D68, -2px 2px 0 #414D68, 2px 2px 0 #414D68, 1px 1px #414D68, 2px 2px #414D68, 3px 3px #414D68, 4px 4px #414D68, 5px 5px #414D68;
+
 }
 
 p {
     margin: 70px auto; /* Centra el párrafo horizontalmente */
-    padding: 0 30px; /* Espaciado izquierda y derecha */
+    padding: 0 500px; /* Espaciado izquierda y derecha */
     letter-spacing: 2px;
     text-align: center; /* Centra el texto en el párrafo */
 }
 
 p span {
-    color: white;
+  text-align: left; 
+  font-weight:bold; 
+  color: #dcdcdc; 
+  text-shadow: -1px 0 #414D68, 0 1px #414D68, 1px 0 #414D68, 0 -1px #414D68, -2px 2px 0 #414D68, 2px 2px 0 #414D68, 1px 1px #414D68, 2px 2px #414D68, 3px 3px #414D68, 4px 4px #414D68, 5px 5px #414D68;
+  letter-spacing: 3px;
 }
 
 .subTittle1, .subTittle2 {
-    letter-spacing: 3px;
-    color: rgb(33, 33, 33);
-    padding-bottom: 15px;
-    text-align: center; /* Centra el texto en los elementos .subTittle */
+  text-align: left; 
+  font-weight:bold; 
+  color: #dcdcdc; 
+  text-shadow: -1px 0 #414D68, 0 1px #414D68, 1px 0 #414D68, 0 -1px #414D68, -2px 2px 0 #414D68, 2px 2px 0 #414D68, 1px 1px #414D68, 2px 2px #414D68, 3px 3px #414D68, 4px 4px #414D68, 5px 5px #414D68;
+  letter-spacing: 3px;
+  padding-top: 0px;
+  text-align: center;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+  text-align: center; /* Centra el texto en los elementos .subTittle */
 }
 
 ol, ul {
     list-style: none;
     margin: 70px auto; /* Centra la lista horizontalmente */
-    padding: 0 30px; /* Espaciado izquierda y derecha */
+    padding: 0 50px; /* Espaciado izquierda y derecha */
     letter-spacing: 2px;
     text-align: left; /* Alinea el texto de la lista a la izquierda */
 }
+
 
 
 /* CSS */
