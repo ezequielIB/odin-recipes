@@ -3,17 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Ondin Project</title>
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .imagen.odin{
+            height: 450px;
+            width: 300px;
+        }
+           
+    </style>
 </head>
 <body>
+    <div class="head container">
     <h1>Recetas de Odin</h1>
-    <img src="images/odin-logo.png" alt="imagen-odin" width="350" height="350">
-    <ul>
-        <li><a href="recetas/lasagna.html">Receta Lasagna <strong> Abuela Italia</strong></a></li>
-        <li><a href="recetas/hamburguesa.html">Smashed Burguer</a></li>
-        <li><a href="recetas/pizza.html">Pizza Margherita</a></li>
-    </ul>
- 
-    
+    <img class="imagen odin" src="images/odin-imagen.png" alt="">
+    <div class="content">
+        <ul class="recetas">
+            <li class="receta1"><a href="recetas/lasagna.html">Receta Lasagna <strong> Abuela Italia</strong></a></li>
+            <li class="receta2"><a href="recetas/hamburguesa.html">Smashed Burguer</a></li>
+            <li class="receta3"><a href="recetas/pizza.html">Pizza Margherita</a></li>
+        </ul>
+    </div>
+</div>
 </body>
 </html>
