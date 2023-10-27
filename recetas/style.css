@@ -20,19 +20,8 @@ body{
 text-align: center;
 }
 
-.receta1{
-    padding-bottom: 10px;
-    padding-top: 15px;
-}
-.receta2{
+ul li{
     padding-bottom: 10px;
     padding-top: 10px;
-}
-.receta3{
-    padding-bottom: 10px;
-    padding-top: 10px;
-}
-ul{
     list-style: none;
-    
 }
